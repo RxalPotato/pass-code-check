@@ -1,0 +1,5 @@
+pass_code = input("pass_code : ")
+if pass_code == '12345':
+    print("security check status ==> 12345 pass_code permission PASS")
+else:
+    print("access denied contracting FBI pass_code is not " + pass_code)
